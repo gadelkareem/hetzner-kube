@@ -59,7 +59,7 @@ func (provider *Provider) CreateNodes(template clustermanager.Node, datacenters 
 			Name: template.Type,
 		},
 		Image: &hcloud.Image{
-			Name: "ubuntu-16.04",
+			Name: "ubuntu-18.04",
 		},
 	}
 
